@@ -2,7 +2,7 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "./hello-amplify/app",
+    "outDir": "./somai-covid/app",
     "types": []
   },
   "files": [

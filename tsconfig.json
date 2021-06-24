@@ -3,7 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/hello-amplify",
+    "outDir": "./dist/somai-covid",
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
