@@ -1,0 +1,20 @@
+{
+    "data": {
+        "info1": {
+            "confimados": 34124,
+            "incidencia": 324
+        },
+        "info2": {
+            "obitos": 34124,
+            "letalidade": 324
+        },
+        "info3": {
+            "vacinados": 34124,
+            "incidencia": 324
+        },
+        "info4": {
+            "povos": 34124,
+            "atingidos": 324
+        }
+    }
+}

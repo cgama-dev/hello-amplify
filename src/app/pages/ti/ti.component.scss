@@ -1,0 +1,19 @@
+@import "./../../../sass/abstract/unit";
+@import "./../../../sass/abstract/breakpoint";
+
+$component-ti: "c-aside-ti";
+
+.#{$component-ti} {
+  margin: rem(24) rem(20);
+  display: flex;
+  flex-direction: column;
+
+  .c-aside-ti-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    color: #868E96;
+    margin-bottom: rem(8);
+  }
+}

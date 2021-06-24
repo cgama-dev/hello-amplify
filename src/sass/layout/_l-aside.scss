@@ -1,0 +1,62 @@
+$layout-name: "l-aside";
+$layout-name-graph: "l-aside-graph";
+$layout-name-footer: "l-aside-footer";
+
+.#{$layout-name} {
+  background-color: var(--color-somaicovid-white);
+  color: var(--color-somaicovid-white);
+  grid-area: aside;
+  overflow: auto;
+  max-height: rem(300);
+
+  @include breakpoint(large-up) {
+    display: grid;
+    max-height: rem(750);
+    background-color: var(--color-somaicovid-white);
+
+
+    grid-template-areas:
+      "aside-graph"
+      "aside-footer";
+  }
+
+  @include breakpoint(large-up) {
+    margin-bottom: inherit;
+  }
+
+}
+
+.#{$layout-name-graph} {
+  grid-area: aside-graph;
+  min-height: rem(600);
+  overflow: auto;
+}
+
+.#{$layout-name-footer} {
+  display: flex;
+  grid-area: aside-footer;
+  justify-content: space-around;
+  border-top: 1px #e9ecef solid;
+
+  &__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    span {
+      color: var(--color-somaicovid-black);
+      margin-bottom: rem(5);
+      font-style: normal;
+      font-weight: 600;
+      font-size: rem(14);
+      line-height: 120%;
+    }
+
+    img {
+      width: rem(101);
+      height: rem(48);
+
+    }
+  }
+}

@@ -1,0 +1,48 @@
+@import "./../../../sass/abstract/unit";
+@import "./../../../sass/abstract/breakpoint";
+
+$component-uf: "c-aside-uf";
+
+.#{$component-uf} {
+  margin: rem(24) rem(20);
+  display: flex;
+  flex-direction: column;
+
+  .c-aside-uf-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    color: #868E96;
+    margin-bottom: rem(8);
+
+  }
+
+  .c-aside-uf-numbers {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #298E43;
+
+    &.c-aside-uf-color-red {
+      color: #DE3700;
+    }
+  }
+
+  .c-aside-uf-count {
+    display: flex;
+    justify-content: space-between;
+    color: #495057;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 120%;
+    margin-top: rem(8);
+  }
+
+  div {
+    border: 1px solid #E9ECEF;
+    margin-top: rem(16);
+  }
+}

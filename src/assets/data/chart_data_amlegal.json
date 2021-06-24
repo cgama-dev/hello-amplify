@@ -1,0 +1,220 @@
+{
+    "data": {
+        "casos-dia": [
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "confirmados": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            }
+        ],
+        "obitos-dia": [
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "obitos": 63,
+                "media7d": 51,
+                "date": "2021-01-01"
+            }
+        ],
+        "demanda-leitos": [
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            },
+            {
+                "uti": 63,
+                "enfermaria": 51,
+                "date": "2021-01-01"
+            }
+        ]
+    }
+}

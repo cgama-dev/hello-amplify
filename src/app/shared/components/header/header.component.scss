@@ -1,0 +1,115 @@
+@import "./../../../../sass/abstract/unit";
+@import "./../../../../sass/abstract/breakpoint";
+
+$component-name-box: "c-header__box";
+$component-name-box-icons: "c-header__icons";
+$component-name-box-info: "c-header-box-info";
+
+.#{$component-name-box} {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+
+  .c-box__info {
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: rem(12);
+      line-height: 120%;
+      color: #868E96;
+      margin-bottom: rem(8);
+    }
+
+    &-subtitle-1 {
+      font-size: rem(24);
+      color: #298E43;
+    }
+
+    &-subtitle-2 {
+      font-size: rem(24);
+      color: #DE3700;
+    }
+
+    &-subtitle-3 {
+      font-size: rem(24);
+      color: #212529;
+    }
+  }
+}
+
+.#{$component-name-box-icons} {
+  display: flex;
+  margin-right: 2.5rem;
+  align-items: center;
+  justify-content: center;
+
+  div {
+    height: rem(48);
+    border: 1px solid var(--color-somaicovid-gray-7);
+    margin-left: rem(48.8);
+  }
+
+  span {
+    img {
+      width: rem(24);
+      height: rem(24);
+    }
+  }
+}
+
+.#{$component-name-box-info} {
+  width: rem(230);
+  height: rem(100);
+  border-radius: 0.5rem;
+  margin-left: rem(16);
+  position: relative;
+
+  &__badge {
+    background: var(--color-somaicovid-orange);
+    width: rem(6);
+    height: rem(25);
+    border-radius: 2px;
+    position: absolute;
+    left: rem(-2);
+    top: rem(10)
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    flex: 1;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: rem(10);
+
+    .info-header {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .info-footer {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.#{$component-name-box-info}:nth-child(1) {
+  background-color: var(--color-somaicovid-error);
+}
+
+.#{$component-name-box-info}:nth-child(2) {
+  background-color: var(--color-somaicovid-gray-1);
+}
+
+.#{$component-name-box-info}:nth-child(3) {
+  background-color: var(--color-somaicovid-success);
+}
+
+.#{$component-name-box-info}:nth-child(4) {
+  background-color: var(--color-somaicovid-gray-5);
+}

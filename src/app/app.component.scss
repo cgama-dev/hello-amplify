@@ -1,0 +1,80 @@
+@import "./../sass/abstract/unit";
+@import "./../sass/abstract/breakpoint";
+
+$component-name: "c-menu";
+
+.#{$component-name} {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+
+  @include breakpoint(large-up) {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  &__main {
+    width: 100%;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+
+      @include breakpoint(large-up) {
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: rem(32);
+        margin-left: rem(9);
+        cursor: pointer;
+
+        img {
+          width: rem(24);
+          height: rem(24);
+          // opacity: 0.2;
+        }
+
+        span {
+          color: var(--color-somaicovid-white);
+          font-style: normal;
+          font-weight: 450;
+          font-size: rem(12);
+          line-height: rem(18);
+          text-align: center;
+          margin-top: rem(8);
+        }
+
+        @include breakpoint(large-up) {
+          img {
+            width: rem(24);
+            height: rem(24);
+          }
+        }
+      }
+    }
+  }
+
+  &__content {
+    li {}
+  }
+
+}
+
+.is-active {
+  opacity: 1;
+}
+
+.is-not-active {
+  opacity: 0.4;
+}

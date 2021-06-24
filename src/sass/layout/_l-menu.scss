@@ -1,0 +1,14 @@
+$layout-name: "l-menu";
+
+.#{$layout-name} {
+  background-image: url('./../../assets/img/bg-aside.svg');
+  color: var(--color-somaicovid-gray-1);
+  grid-area: menu;
+  justify-content: center;
+  background-color: #298a43;
+
+  @include breakpoint(large-up) {
+    display: grid;
+    background-color: #298a43;
+  }
+}

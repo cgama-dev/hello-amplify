@@ -1,0 +1,11 @@
+{
+    "data": [
+        {
+            "territoryId": 1,
+            "category": "amlegal",
+            "casos": 123,
+            "obitos": 56,
+            "vacinados": 23
+        }
+    ]
+}
